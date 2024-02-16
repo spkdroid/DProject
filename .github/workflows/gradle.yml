@@ -3,7 +3,7 @@ name: Publish WAR file as Artifact
 on:
   push:
     branches:
-      - main  # You can change this to the branch you want to trigger the workflow
+      - master  # You can change this to the branch you want to trigger the workflow
 
 jobs:
   build:
